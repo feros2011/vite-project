@@ -22,17 +22,17 @@ function App() {
       <div className="card">
         {/* Императивная часть: Обработчик события, который изменяет состояние */}
         <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
+          Счетчик: {count}
         </button>
         <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
+          Отредактируйте <code>src/App.jsx</code> и сохраните для проверки HMR
         </p>
       </div>
       <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
+        Нажмите на логотипы Vite и React, чтобы узнать больше
       </p>
       <p className="current-year">
-        Текущий год: {new Date().getFullYeart()}
+        Текущий год: {new Date().getFullYear()}
       </p>
     </>
   )
